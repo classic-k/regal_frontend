@@ -105,3 +105,42 @@ a {
     color-scheme: dark;
   }
 }
+
+/* global.css */
+
+.social-media-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 16px;
+  padding: 16px;
+  justify-items: center;
+  align-items: center;
+}
+
+.social-media-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: #000;
+  transition: transform 0.3s ease;
+}
+
+.social-media-link:hover {
+  transform: scale(1.1);
+}
+
+.social-media-icon {
+  font-size: 40px;
+  margin-bottom: 8px;
+}
+
+@media (max-width: 600px) {
+  .social-media-grid {
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+  }
+
+  .social-media-icon {
+    font-size: 30px;
+  }
+}
