@@ -1,5 +1,5 @@
 import { FaTwitter, FaInstagram, FaFacebook} from 'react-icons/fa';
-import '../global.css'; // Assuming global styles are in global.css
+//import '../global.css'; // Assuming global styles are in global.css
 
 const SocialMediaLinks = () => {
   const socialMedia = [
