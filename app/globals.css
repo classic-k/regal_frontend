@@ -95,10 +95,7 @@ body {
     rgb(var(--background-start-rgb));
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
+
 
 @media (prefers-color-scheme: dark) {
   html {
@@ -106,7 +103,6 @@ a {
   }
 }
 
-/* global.css */
 
 .social-media-grid {
   display: grid;
