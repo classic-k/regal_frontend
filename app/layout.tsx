@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import Logo from "@/public/logo.png"
 import "./globals.css";
+import Image from "next/image"
 //import Head from "next/head";
 //import Script from "next/script";
 
@@ -23,14 +25,14 @@ export default function RootLayout({
         
       <nav className="nav">
       <div className="logo">
-        <img src="/path/to/logo.png" alt="Regal Mark Logo" className="logo-image" />
+        <Image src={Logo} width={250} height={250} alt="Regal Mark Logo" className="logo-image" />
       </div>
     </nav>
         {children}
 
       <footer className="footer">
       <div className="logo">
-        <img src="/path/to/logo.png" alt="Regal Mark Logo" className="logo-image" />
+      <Image src={Logo} width={250} height={250} alt="Regal Mark Logo" className="logo-image" />
       </div>
     </footer>
       </body>
