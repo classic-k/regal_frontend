@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Head from "next/head";
-import Script from "next/script";
+//import Head from "next/head";
+//import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,7 +19,21 @@ export default function RootLayout({
   return (
     <html lang="en">
       
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        
+      <nav className="nav">
+      <div className="logo">
+        <img src="/path/to/logo.png" alt="Regal Mark Logo" className="logo-image" />
+      </div>
+    </nav>
+        {children}
+
+      <footer className="footer">
+      <div className="logo">
+        <img src="/path/to/logo.png" alt="Regal Mark Logo" className="logo-image" />
+      </div>
+    </footer>
+      </body>
     </html>
   );
 }

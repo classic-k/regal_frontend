@@ -11,7 +11,7 @@ const SocialMediaLinks = () => {
 
   return (
     <div className="social-media-grid">
-      <h3>Regal Mark Socials</h3>
+    
       {socialMedia.map((media, index) => (
         <a key={index} href={media.url} className="social-media-link" target="_blank" rel="noopener noreferrer">
           <div className="social-media-icon">{media.icon}</div>
