@@ -150,7 +150,7 @@ body {
 }
 
 
-.nav {
+.nav, .footer {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -168,7 +168,7 @@ body {
 
 /* Mobile optimization */
 @media (max-width: 600px) {
-  .nav  {
+  .nav, .footer  {
     height: 50px;
   }
   .logo {
