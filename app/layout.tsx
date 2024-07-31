@@ -24,15 +24,15 @@ export default function RootLayout({
       <body className={inter.className}>
         
       <nav className="nav">
-      <div className="logo">
-        <Image src={Logo} width={50} height={50} alt="Regal Mark Logo" className="logo-image" />
+      <div className="logo-div">
+        <Image src={Logo} width={50} height={50} alt="Regal Mark Logo" className="logo" />
       </div>
     </nav>
         {children}
 
       <footer className="footer">
-      <div className="logo">
-      <Image src={Logo} width={50} height={50} alt="Regal Mark Logo" className="logo-image" />
+      <div className="logo-div">
+      <Image src={Logo} width={50} height={50} alt="Regal Mark Logo" className="logo" />
       </div>
     </footer>
       </body>
