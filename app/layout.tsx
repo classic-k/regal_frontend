@@ -25,14 +25,14 @@ export default function RootLayout({
         
       <nav className="nav">
       <div className="logo-div">
-        <Image src={Logo} width={50} height={50} alt="Regal Mark Logo" className="logo" />
+        <Image src={Logo}  alt="Regal Mark Logo" className="logo" />
       </div>
     </nav>
         {children}
 
       <footer className="footer">
       <div className="logo-div">
-      <Image src={Logo} width={50} height={50} alt="Regal Mark Logo" className="logo" />
+      <Image src={Logo}  alt="Regal Mark Logo" className="logo" />
       </div>
     </footer>
       </body>
