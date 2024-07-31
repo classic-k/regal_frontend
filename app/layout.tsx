@@ -29,12 +29,6 @@ export default function RootLayout({
       </div>
     </nav>
         {children}
-
-      <footer className="footer">
-      <div className="logo-div">
-      <Image src={Logo}  alt="Regal Mark Logo" className="logo" />
-      </div>
-    </footer>
       </body>
     </html>
   );
