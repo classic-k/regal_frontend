@@ -168,7 +168,7 @@ body {
 
 /* Mobile optimization */
 @media (max-width: 600px) {
-  .navbar {
+  .nav  {
     height: 50px;
   }
   .logo {
