@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import Logo from "@/public/logo.png"
 import "./globals.css";
 import Image from "next/image"
+import  Card from "@/components/card"
 //import Head from "next/head";
 //import Script from "next/script";
 
@@ -23,11 +24,7 @@ export default function RootLayout({
       
       <body className={inter.className}>
         
-      <nav className="nav">
-      <div className="logo-div">
-        <Image src={Logo}  alt="Regal Mark Logo" className="logo" />
-      </div>
-    </nav>
+     <Card />
         {children}
       </body>
     </html>
