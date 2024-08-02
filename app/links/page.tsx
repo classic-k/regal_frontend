@@ -14,7 +14,7 @@ const SocialMediaLinks = () => {
   ];
   return (
     <div className="social-media-grid">
-    
+     <h2 className="social-media-title">Social Media Handles</h2>
       {socialMedia.map((media, index) => {
         if(media.name === "Email")
         {
