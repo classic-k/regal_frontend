@@ -19,7 +19,7 @@ const SocialMediaLinks = () => {
         {
           return (
           
-          <a key={index} href="#" className="social-media-link" target="_blank" rel="noopener noreferrer">
+          <a key={index} href={media.url} className="social-media-link" target="_blank" rel="noopener noreferrer">
             
             <div className="social-media-icon">{media.icon}</div>
             <span>{media.name} </span>
