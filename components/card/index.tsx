@@ -9,17 +9,16 @@ const Card = () => {
   const contacts = [
     
     
-    { name: 'Phone', url: 'tel:+1234567890', icon: <FaPhone className='ic' />, value: "+447960983074" },
+    { name: 'Phone', url: 'tel:+447960983074', icon: <FaPhone className='ic' />, value: "+447960983074" },
      { name: 'Email', url: 'mailto:regalmark.info@gmail.com', icon: <FaEnvelope className='ic' />, value: "regalmark.info@gmail.com" },
     { name: 'Location', url: '#', icon: <FaLocationArrow className='ic' />, value: "London" },
-    { name: 'Website', url: 'https://www.regal-mark.com', icon: <FaGlobe className='ic' />, value: "www.regalmark.com" },
+    { name: 'Website', url: 'https://www.regal-mark.com', icon: <FaGlobe className='ic' />, value: "www.regal-mark.com" },
     
   ];
   return (
     <div className="card">
-    <img className="profile-img" src={logo.src} alt="Profile Image" />
+    <img className="profile-img" src={logo.src} alt="Profile Image" height={} width={} />
     <h2 className="name">REGAL MARK</h2>
-    <p className="tagline">___Dress in style, walk with confidence___ </p>
     <div className="contact-info">
 
       {contacts.map((contact, index) => {
