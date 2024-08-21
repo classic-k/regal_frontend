@@ -72,7 +72,7 @@ body {
   padding-left: 30px;
 }
 
-.contact-info p i {
+.contact-info p .ic {
   position: absolute;
   left: 0;
   font-size: 1rem;
@@ -95,6 +95,11 @@ body {
 
 .social-icons a {
   color: gold;
+  font-size: 1.25rem;
+  text-decoration: none;
+}
+
+a {
   font-size: 1.25rem;
   text-decoration: none;
 }

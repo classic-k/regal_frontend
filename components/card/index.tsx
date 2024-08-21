@@ -9,10 +9,10 @@ const Card = () => {
   const contacts = [
     
     
-    { name: 'Phone', url: 'tel:+1234567890', icon: <FaPhone />, value: "+447960983074" },
-     { name: 'Email', url: 'mailto:regalmark.info@gmail.com', icon: <FaEnvelope />, value: "regalmark.info@gmail.com" },
-    { name: 'Location', url: '#', icon: <FaLocationArrow />, value: "London" },
-    { name: 'Website', url: 'https://www.regal-mark.com', icon: <FaGlobe />, value: "www.regalmark.com" },
+    { name: 'Phone', url: 'tel:+1234567890', icon: <FaPhone className='ic' />, value: "+447960983074" },
+     { name: 'Email', url: 'mailto:regalmark.info@gmail.com', icon: <FaEnvelope className='ic' />, value: "regalmark.info@gmail.com" },
+    { name: 'Location', url: '#', icon: <FaLocationArrow className='ic' />, value: "London" },
+    { name: 'Website', url: 'https://www.regal-mark.com', icon: <FaGlobe className='ic' />, value: "www.regalmark.com" },
     
   ];
   return (
