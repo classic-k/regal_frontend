@@ -26,7 +26,7 @@ const Card = () => {
         return(
           <p key={index}>
 <a href={contact.url} target="_blank" rel="noopener noreferrer" >
-  {contact.icon} {contact.value}
+  {contact.icon} <span> {contact.value} </span>
   </a>
           </p>  
         ) 
@@ -37,5 +37,5 @@ const Card = () => {
 
   );
 };
-//href="tel:+1234567890"
+
 export default Card;
