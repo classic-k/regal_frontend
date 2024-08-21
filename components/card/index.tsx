@@ -18,7 +18,7 @@ const Card = () => {
   return (
     <div className="card">
     <img className="profile-img" src={logo.src} alt="Profile Image" height={} width={} />
-    <h2 className="name">REGAL MARK</h2>
+    
     <div className="contact-info">
 
       {contacts.map((contact, index) => {
