@@ -17,7 +17,7 @@ const Card = () => {
   ];
   return (
     <div className="card">
-    <img className="profile-img" src={logo.src} alt="Profile Image" height={} width={} />
+    <img className="profile-img" src={logo.src} alt="Profile Image" />
     
     <div className="contact-info">
 
