@@ -1,11 +1,11 @@
 "use client"
 import Image from "next/image";
-import styles from "./page.module.css";
+//import styles from "./page.module.css";
 import Script from "next/script";
 
 export default function Home() {
   return (
-    <main className={styles.main}>
+    <main>
      
           <div className="logo">Regal Mark</div>
           <div className="saia-widget-container center"></div>

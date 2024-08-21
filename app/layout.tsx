@@ -8,6 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Regal Mark",
   description: "Style Me Apparel Store",
+  viewport: "content=width=device-width, initial-scale=1.0"
 };
 
 export default function RootLayout({
